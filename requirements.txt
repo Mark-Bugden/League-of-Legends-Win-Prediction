@@ -1,0 +1,12 @@
+# Before installing these requirements, you should already have installed 
+# conda install pip
+# and
+# conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+
+tensorflow
+pandas
+matplotlib
+requests
+ratelimit
+scikit-learn
+tqdm
