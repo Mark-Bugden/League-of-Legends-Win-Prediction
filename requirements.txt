@@ -10,3 +10,4 @@ requests
 ratelimit
 scikit-learn
 tqdm
+streamlit
