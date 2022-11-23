@@ -64,13 +64,13 @@ with team_selection:
             blue_champs[i] = st.selectbox("Blue Champion "+str(i+1), options=champions, key=col + "bluechamp" +str(i), index=initial_blue_index[i])
 
         with col22:
-            st.image(f'Champion Icons/{blue_champs[i]}.png', caption=f'{blue_champs[i]}')
+            st.image(f'img/Champion Icons/{blue_champs[i]}.png', caption=f'{blue_champs[i]}')
 
         with col23:
             red_champs[i] = st.selectbox("Red Champion "+str(i+1), options=champions, key=col + "redchamp" +str(i), index=initial_red_index[i])
 
         with col24:
-            st.image(f'Champion Icons/{red_champs[i]}.png', caption=f'{red_champs[i]}')
+            st.image(f'imgChampion Icons/{red_champs[i]}.png', caption=f'{red_champs[i]}')
 
 with win_prediction:
     st.header('Use the Neural Network to predict the winner')
