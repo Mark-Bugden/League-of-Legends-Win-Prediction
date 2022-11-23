@@ -12,6 +12,7 @@ win_prediction = st.container()
 
 # Load the champion information
 champion_url = 'http://ddragon.leagueoflegends.com/cdn/12.14.1/data/en_US/champion.json'
+icon_url = 'http://ddragon.leagueoflegends.com/cdn/12.22.1/img/champion/'
 r = requests.get(champion_url)
 json_data = r.json()
 champion_data = json_data['data']
@@ -64,13 +65,13 @@ with team_selection:
             blue_champs[i] = st.selectbox("Blue Champion "+str(i+1), options=champions, key=col + "bluechamp" +str(i), index=initial_blue_index[i])
 
         with col22:
-            st.image(f'https://github.com/Mark-Bugden/League-of-Legends-Win-Prediction/tree/main/img/Champion%20icons/{blue_champs[i]}.png', caption=f'{blue_champs[i]}')
+            st.image(icon_url+f'{blue_champs[i]}.png', caption=f'{blue_champs[i]}')
 
         with col23:
             red_champs[i] = st.selectbox("Red Champion "+str(i+1), options=champions, key=col + "redchamp" +str(i), index=initial_red_index[i])
 
         with col24:
-            st.image(f'https://github.com/Mark-Bugden/League-of-Legends-Win-Prediction/tree/main/img/Champion%20icons/{red_champs[i]}.png', caption=f'{red_champs[i]}')
+            st.image(icon_url+f'{red_champs[i]}.png', caption=f'{red_champs[i]}')
 
 with win_prediction:
     st.header('Use the Neural Network to predict the winner')
