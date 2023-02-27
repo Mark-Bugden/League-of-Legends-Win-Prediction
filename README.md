@@ -1,5 +1,8 @@
 # League-of-Legends-Win-Prediction
-A repository for my League of Legends Win Prediction project
+A repository for my League of Legends Win Prediction project.
+
+## Description
+Coming soon!
 
 ## How to setup the environment:
 
