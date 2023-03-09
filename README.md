@@ -52,4 +52,4 @@ The cudatools package ensures that tensorflow runs on the GPU and not on the CPU
 4. Streamline Data Collection pipeline
 5. Run Data Collection Pipeline to get more data
 6. Clean up deprecated imports in files
-7. Add gitignore for ipythoncheckpoints
+7. ~~Add gitignore for ipythoncheckpoints~~
