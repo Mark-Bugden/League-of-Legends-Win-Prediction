@@ -4,6 +4,9 @@ A repository for my League of Legends Win Prediction project.
 ## Description
 Coming soon!
 
+## Folder structure
+    - 
+
 ## How to setup the environment:
 
 1. Create a Conda environment with
@@ -39,3 +42,4 @@ The cudatools package ensures that tensorflow runs on the GPU and not on the CPU
 4. Streamline Data Collection pipeline
 5. Run Data Collection Pipeline to get more data
 6. Clean up deprecated imports in files
+7. Add gitignore for ipythoncheckpoints
