@@ -5,7 +5,17 @@ A repository for my League of Legends Win Prediction project.
 Coming soon!
 
 ## Folder structure
-    - 
+    - **Data Collection** : Tools and instructions for using API to query match data from RIOT Games
+    - **img**: Images for Champion icons, scraped from web
+    - **Preprocessing**: Notebook and output of preprocessing step converting raw match data into features and labels for machine learning use
+    - **src**: Main folder, containing all important Machine Learning analyses of the match data
+    - **streamlit app**: Files for streamlit app
+    - **utils**: Utility scripts that are used by the notebooks in the repository.
+    - Instructions.txt: Instructions on how to set up the environment
+    - README.md: This readme file
+    - requirements.txt: Requirements file for various packages in environment
+    - riot.txt: Identifying file required by RIOT Games to obtain a development API
+        
 
 ## How to setup the environment:
 
