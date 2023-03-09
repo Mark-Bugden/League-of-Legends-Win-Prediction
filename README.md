@@ -4,7 +4,7 @@ A repository for my League of Legends Win Prediction project.
 ## Description
 Coming soon!
 
-## Folder structure
+## Folder contents
 - **Data Collection** : Tools and instructions for using API to query match data from RIOT Games
 - **img**: Images for Champion icons, scraped from web
 - **Preprocessing**: Notebook and output of preprocessing step converting raw match data into features and labels for machine learning use
