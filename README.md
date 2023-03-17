@@ -54,4 +54,4 @@ The cudatools package ensures that tensorflow runs on the GPU and not on the CPU
 6. Clean up deprecated imports in files
 7. ~~Add gitignore for ipythoncheckpoints~~
 8. ~~Add in ProPlay win prediction~~
-9. ~~Incorporate PropPlay prediction into Streamlit app (or new app)
+9. Incorporate PropPlay prediction into Streamlit app (or new app)
