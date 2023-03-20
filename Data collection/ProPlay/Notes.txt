@@ -1,0 +1,58 @@
+Variable	Meaning
+
+CSM	Creep score per minute
+
+DPM	Damage per minute
+
+DRA%	Percentage of dragons killed
+
+DRA@15	Dragons at 15
+
+Deaths / game	Deaths of all player per game
+
+FB%	First blood percentage
+
+FT%	First turret percentage
+
+GD@15	Gold difference @ 15
+
+GDM	Gold difference per minute
+
+GPM	Gold per minute
+
+
+Game duration	Game duration
+
+Games	Number of games
+
+HER%	Percentage of heralds killed
+
+HERPG	Heralds per game
+
+K:D	Average Kills/Deaths per game
+
+Kills / game	Kills of all player per game
+
+NASH%	Percentage of Barons killed
+
+NASHPG	Barons per game
+
+Name	Name of the team
+
+Region	Region of the team
+
+Season	Season
+
+TD@15	Tower differential @ 15
+
+Towers killed	Towers killed per game
+
+Towers lost	Towers lost per game
+
+VWPM	Vision wards per minute
+
+WCPM	Wards cleared per minute
+
+WPM	Wards per minute
+
+Win rate	Win rate of the team
